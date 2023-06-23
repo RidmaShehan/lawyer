@@ -28,22 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.login_butten = new System.Windows.Forms.Button();
             this.email_text = new System.Windows.Forms.TextBox();
             this.Password_text = new System.Windows.Forms.TextBox();
+            this.Creat_account_label = new System.Windows.Forms.Label();
+            this.forgot_password_label = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::lawyer.Properties.Resources.Artboard_1;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1612, 832);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // login_butten
             // 
@@ -69,14 +61,51 @@
             // 
             this.Password_text.Location = new System.Drawing.Point(293, 531);
             this.Password_text.Name = "Password_text";
+            this.Password_text.PasswordChar = '*';
             this.Password_text.Size = new System.Drawing.Size(434, 22);
             this.Password_text.TabIndex = 2;
+            // 
+            // Creat_account_label
+            // 
+            this.Creat_account_label.AutoSize = true;
+            this.Creat_account_label.BackColor = System.Drawing.Color.Transparent;
+            this.Creat_account_label.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.Creat_account_label.Location = new System.Drawing.Point(456, 688);
+            this.Creat_account_label.Name = "Creat_account_label";
+            this.Creat_account_label.Size = new System.Drawing.Size(90, 16);
+            this.Creat_account_label.TabIndex = 3;
+            this.Creat_account_label.Text = "Creat Account";
+            this.Creat_account_label.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // forgot_password_label
+            // 
+            this.forgot_password_label.AutoSize = true;
+            this.forgot_password_label.BackColor = System.Drawing.Color.Transparent;
+            this.forgot_password_label.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.forgot_password_label.Location = new System.Drawing.Point(637, 580);
+            this.forgot_password_label.Name = "forgot_password_label";
+            this.forgot_password_label.Size = new System.Drawing.Size(103, 16);
+            this.forgot_password_label.TabIndex = 3;
+            this.forgot_password_label.Text = "forgot password";
+            this.forgot_password_label.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::lawyer.Properties.Resources.Artboard_12;
+            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1612, 832);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1368, 777);
+            this.ClientSize = new System.Drawing.Size(1601, 831);
+            this.Controls.Add(this.forgot_password_label);
+            this.Controls.Add(this.Creat_account_label);
             this.Controls.Add(this.Password_text);
             this.Controls.Add(this.email_text);
             this.Controls.Add(this.login_butten);
@@ -95,6 +124,8 @@
         private System.Windows.Forms.Button login_butten;
         private System.Windows.Forms.TextBox email_text;
         private System.Windows.Forms.TextBox Password_text;
+        private System.Windows.Forms.Label Creat_account_label;
+        private System.Windows.Forms.Label forgot_password_label;
     }
 }
 

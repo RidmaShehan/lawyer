@@ -16,5 +16,18 @@ namespace lawyer
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the registration form
+            Register_form Register_form = new Register_form();
+
+            // Hide the login form
+            this.Hide();
+
+            // Show the registration form
+            Register_form.Show();
+
+        }
     }
 }
