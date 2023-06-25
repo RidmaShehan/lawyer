@@ -48,8 +48,9 @@
             // 
             this.pictureBox1.Image = global::lawyer.Properties.Resources.Artboard_15;
             this.pictureBox1.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1612, 832);
+            this.pictureBox1.Size = new System.Drawing.Size(1209, 676);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -57,7 +58,8 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(300, 331);
+            this.monthCalendar1.Location = new System.Drawing.Point(225, 269);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 1;
             // 
@@ -65,9 +67,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton1.Location = new System.Drawing.Point(11, 10);
+            this.radioButton1.Location = new System.Drawing.Point(8, 8);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(58, 20);
+            this.radioButton1.Size = new System.Drawing.Size(48, 17);
             this.radioButton1.TabIndex = 2;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Male";
@@ -77,9 +80,10 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Location = new System.Drawing.Point(144, 10);
+            this.radioButton2.Location = new System.Drawing.Point(108, 8);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(74, 20);
+            this.radioButton2.Size = new System.Drawing.Size(59, 17);
             this.radioButton2.TabIndex = 2;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Female";
@@ -89,9 +93,10 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton3.Location = new System.Drawing.Point(292, 10);
+            this.radioButton3.Location = new System.Drawing.Point(219, 8);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(60, 20);
+            this.radioButton3.Size = new System.Drawing.Size(51, 17);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Other";
@@ -102,9 +107,10 @@
             // 
             this.radioButton6.AutoSize = true;
             this.radioButton6.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton6.Location = new System.Drawing.Point(25, 16);
+            this.radioButton6.Location = new System.Drawing.Point(19, 13);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(74, 20);
+            this.radioButton6.Size = new System.Drawing.Size(60, 17);
             this.radioButton6.TabIndex = 2;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Married";
@@ -115,9 +121,10 @@
             // 
             this.radioButton7.AutoSize = true;
             this.radioButton7.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton7.Location = new System.Drawing.Point(158, 16);
+            this.radioButton7.Location = new System.Drawing.Point(118, 13);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(91, 20);
+            this.radioButton7.Size = new System.Drawing.Size(73, 17);
             this.radioButton7.TabIndex = 2;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Unmarried";
@@ -129,9 +136,10 @@
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Location = new System.Drawing.Point(846, 335);
+            this.panel1.Location = new System.Drawing.Point(634, 272);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(368, 52);
+            this.panel1.Size = new System.Drawing.Size(276, 42);
             this.panel1.TabIndex = 4;
             // 
             // panel2
@@ -140,9 +148,10 @@
             this.panel2.Controls.Add(this.radioButton7);
             this.panel2.Controls.Add(this.radioButton6);
             this.panel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel2.Location = new System.Drawing.Point(846, 454);
+            this.panel2.Location = new System.Drawing.Point(634, 369);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(260, 52);
+            this.panel2.Size = new System.Drawing.Size(195, 42);
             this.panel2.TabIndex = 5;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -152,9 +161,10 @@
             this.next_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.next_button.Font = new System.Drawing.Font("Microsoft Tai Le", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.next_button.ForeColor = System.Drawing.Color.Snow;
-            this.next_button.Location = new System.Drawing.Point(1029, 597);
+            this.next_button.Location = new System.Drawing.Point(772, 485);
+            this.next_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.next_button.Name = "next_button";
-            this.next_button.Size = new System.Drawing.Size(267, 31);
+            this.next_button.Size = new System.Drawing.Size(200, 25);
             this.next_button.TabIndex = 7;
             this.next_button.Text = "N E X T";
             this.next_button.UseVisualStyleBackColor = false;
@@ -162,14 +172,15 @@
             // 
             // B_day_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1615, 834);
+            this.ClientSize = new System.Drawing.Size(1211, 678);
             this.Controls.Add(this.next_button);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "B_day_form";
             this.Text = "B_day";
             this.Load += new System.EventHandler(this.B_day_form_Load);
